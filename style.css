@@ -1,0 +1,173 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+
+}
+
+
+a:link {
+    color: rgb(128, 107, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(125, 9, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 64, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.h1p {
+    font-size: 3rem;
+
+}
+
+#contenedor {
+    width: 1200px;
+    height: 1500px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    background-image: url(/img/fondo.jpg);
+    padding: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-column-gap: 10px;
+
+}
+
+.pb-header {
+    height: 1px;
+    position: sticky;
+    bottom: 0;
+    padding: 5px;
+    background-color: #64045e;
+    border: 2px;
+
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 0;
+    font-size: 3rem;
+    border-radius: 10px;
+    width: auto;
+    height: auto
+}
+
+
+
+
+nav {
+    text-align: center;
+    height: 50%;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#contenido {
+    display: flexbox;
+    height: 53%;
+    width: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+
+    background-image: url(/img/fondo.jpg);
+    border-radius: 1em;
+    margin: 1em;
+
+}
+
+section {
+    background-image: url(/img/fondo.jpg);
+    text-align: left;
+    height: auto;
+    width: 71%;
+    border-radius: 1em;
+    margin: 2em;
+
+}
+
+p {
+    text-align: left;
+}
+
+aside {
+
+    height: auto;
+    width: 25%;
+    background: rgba(70, 8, 70, 0.5);
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+}
+
+iframe {
+    margin: 15px;
+    padding: 10px
+}
+
+.articulo {
+    width: 90%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.172);
+    margin: 1em;
+    border-radius: 1em;
+    padding: 10px;
+
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-family: Teko;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #64045e 0%, #0a0101 100%);
+    padding: 10px 47px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 22px 50px;
+    transition: 327ms;
+    transform: translateY(0);
+}
+
+
+
+
+a {
+    font-size: 2rem;
+}
