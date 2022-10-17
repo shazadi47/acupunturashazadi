@@ -1,18 +1,24 @@
 * {
     background-color: black;
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 2px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: white;
 
 }
 
+.apagina {
+    font-size: 2rem;
+}
 
 a:link {
     color: rgb(128, 107, 0);
     background-color: transparent;
     text-decoration: none;
+    font-size: 1.2rem;
+
+
 }
 
 a:visited {
@@ -82,20 +88,22 @@ header {
 
 
 
+/*
 nav {
     text-align: center;
     height: 50%;
     border-radius: 1em;
     margin: 1em;
 }
+*/
 
 #contenido {
     display: flexbox;
     height: 53%;
-    width: auto;
+    width: 60%;
     font-size: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 
 
 
@@ -111,28 +119,46 @@ footer {
 
 }
 
-section {
+.grid-container-section {
+    margin: 5px;
+    display: table;
+    width: 100%;
+}
+
+.container {
+    border-style: double;
     background-image: url(/img/fondo.jpg);
     text-align: left;
     height: auto;
-    width: 71%;
+    width: 70%;
     border-radius: 1em;
-    margin: 2em;
-
+    margin: 5px;
+    font-size: 1rem;
+    float: left;
+    padding: 10px;
 }
 
 p {
     text-align: left;
+    background-image: url(/img/fondo.jpg);
+    border-radius: 1em;
 }
 
 aside {
-
+    background-image: url(/img/fondo.jpg);
     height: auto;
-    width: 25%;
-    background: rgba(70, 8, 70, 0.5);
+    width: 20%;
     border-radius: 1em;
     float: right;
-    margin: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    border-color: red;
+}
+
+.aside {
+    border-style: double;
+    border-radius: 1em;
+
 }
 
 iframe {
@@ -147,6 +173,7 @@ iframe {
     margin: 1em;
     border-radius: 1em;
     padding: 10px;
+    font-size: 1, 5em;
 
 }
 
@@ -163,11 +190,4 @@ button {
     border-radius: 22px 50px;
     transition: 327ms;
     transform: translateY(0);
-}
-
-
-
-
-a {
-    font-size: 2rem;
 }
