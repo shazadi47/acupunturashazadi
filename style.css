@@ -1,11 +1,10 @@
 * {
     background-color: black;
     margin: 1px;
-    padding: 2px;
-    font-family: 'Dancing Script', cursive;
+    padding: 1px;
+    font-family: 'Kalam', cursive;    
     text-align: center;
     color: white;
-
 }
 
 .apagina {
@@ -17,8 +16,6 @@ a:link {
     background-color: transparent;
     text-decoration: none;
     font-size: 1.2rem;
-
-
 }
 
 a:visited {
@@ -39,9 +36,8 @@ a:active {
     text-decoration: underline;
 }
 
-.h1p {
+#h1p {
     font-size: 3rem;
-
 }
 
 #contenedor {
@@ -50,7 +46,6 @@ a:active {
     margin: 0.5em auto;
     padding: 0.5em;
 }
-
 
 .grid-container {
     width: 100%;
@@ -62,40 +57,23 @@ a:active {
     justify-content: space-evenly;
     align-content: center;
     grid-column-gap: 10px;
-
 }
 
-.pb-header {
-    height: 1px;
-    position: sticky;
-    bottom: 0;
-    padding: 5px;
-    background-color: #64045e;
-    border: 2px;
-
-}
 
 header {
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    padding-top: 0;
-    font-size: 3rem;
-    border-radius: 10px;
-    width: auto;
-    height: auto
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
 }
 
-
-
-
-/*
-nav {
-    text-align: center;
-    height: 50%;
-    border-radius: 1em;
-    margin: 1em;
-}
-*/
+hr {
+    color: orange;}
 
 #contenido {
     display: flexbox;
@@ -104,19 +82,21 @@ nav {
     font-size: 20px;
     margin: 5px;
     padding: 5px;
-
-
-
 }
 
 footer {
     height: 15%;
     width: 100%;
-
-    background-image: url(/img/fondo.jpg);
-    border-radius: 1em;
     margin: 1em;
+}
 
+.grid-container-footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px;
+    align-content: left;
+    grid-column-gap: 10px;
 }
 
 .grid-container-section {
@@ -132,6 +112,7 @@ footer {
     height: auto;
     width: 70%;
     border-radius: 1em;
+    color: orange;
     margin: 5px;
     font-size: 1rem;
     float: left;
@@ -142,7 +123,7 @@ p {
     text-align: left;
     background-image: url(/img/fondo.jpg);
     border-radius: 1em;
-}
+    }
 
 aside {
     background-image: url(/img/fondo.jpg);
@@ -152,13 +133,12 @@ aside {
     float: right;
     margin: 1em;
     padding: 1em;
-    border-color: red;
 }
 
 .aside {
     border-style: double;
     border-radius: 1em;
-
+    border-color: orange;
 }
 
 iframe {
@@ -174,7 +154,6 @@ iframe {
     border-radius: 1em;
     padding: 10px;
     font-size: 1, 5em;
-
 }
 
 button {
@@ -183,11 +162,36 @@ button {
     font-family: Teko;
     font-size: 16px;
     color: #ffffff;
-    background: linear-gradient(90deg, #64045e 0%, #0a0101 100%);
+    background: linear-gradient(90deg, rgb(125, 9, 9) 0%, rgb(208, 15, 15) 50%, yellow 100%);
     padding: 10px 47px;
-    border: none;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: rgb(226, 216, 216) 0px 0px 0px 0px;
     border-radius: 22px 50px;
     transition: 327ms;
     transform: translateY(0);
 }
+
+.redes {
+    color:#d51717;
+    text-decoration:none;
+    width:3rem;
+    height:3rem;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.3em;
+    -webkit-transition-property:all;
+    -webkit-transition-duration:.1s;
+    -webkit-transition-timing-function:ease-in-out;
+    transition-property:all;
+    transition-duration:.1s;
+    transition-timing-function:ease-in-out;
+    background-color:#fff;
+    border:solid 2px #c63e18;
+    border-radius:50%
+}
+.redes:hover {
+    color:rgb(190, 173, 19);
+    background-color:#fae52b;
+    text-decoration:none
+}
+
