@@ -1,0 +1,117 @@
+* {
+    background-color: black;
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color: white;
+}
+
+section {
+width: 100%;
+display: grid;
+    background-image: url(/img/fondo.jpg);
+padding: 10px;
+align-content: center;
+grid-column-gap: 10px;
+}
+
+a:link {
+    color: rgb(128, 107, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:visited {
+    color: rgb(125, 9, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 64, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#myBtn {
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    font-family: Teko;
+    font-size: 19px;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgb(125, 9, 9) 0%, rgb(208, 15, 15) 50%, yellow 100%);
+    padding: 10px 47px;
+    box-shadow: rgb(226, 216, 216) 0px 0px 0px 0px;
+    border-radius: 22px 50px;
+    transition: 327ms;
+    transform: translateY(0);
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    font-family: Teko;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgb(125, 9, 9) 0%, rgb(208, 15, 15) 50%, yellow 100%);
+    padding: 10px 47px;
+    box-shadow: rgb(226, 216, 216) 0px 0px 0px 0px;
+    border-radius: 22px 50px;
+    transition: 327ms;
+    transform: translateY(0);
+}
+
+#output {
+    width: 50%;
+    padding: 25%;
+    padding-top: 5%;
+
+}
+footer {
+    height: 15%;
+    width: 100%;
+    margin: 1em;
+}
+
+.grid-container-footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px;
+    align-content: left;
+}
+
+.redes {
+    color: #d51717;
+    text-decoration: none;
+    width: 3rem;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .1s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    background-color: #fff;
+    border: solid 2px #c63e18;
+    border-radius: 50%
+}
+
+.redes:hover {
+    color: rgb(190, 173, 19);
+    background-color: #fae52b;
+    text-decoration: none
+}

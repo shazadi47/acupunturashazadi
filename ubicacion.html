@@ -2,16 +2,17 @@
 <html lang="es">
 
 <head>
-    <title>.:Contacto:.</title>
+    <title>.:Ubicación:.</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
         content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="/img/phoenix.png" type="image/x-icon">
-    <link rel="stylesheet" href="/Styles/Contacto.css">
+    <link rel="stylesheet" href="/Styles/ubicacion.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 </head>
 
@@ -19,7 +20,7 @@
     <div>
         <img src="/img/acupunturashazadi.png" alt="">
     </div>
-    
+
     <header>
         <nav class="nav">
             <a href="contacto.html" target="_blank"><button class="button">Contacto/Consultas</button></a>
@@ -29,50 +30,48 @@
         </nav>
     </header>
 
-    <div class="contenido">
-        <div class="item">
-            <fieldset>
-                <legend>Por favor ingrese los siguientes datos: </legend>
-                <form action="">
-                    <label for="nomb">NOMBRE:</label>
-                    <input type="text" name="nombreusuario" id="nomb">
-                    <br> <br>
-                    <label for="apellido">APELLIDO:</label>
-                    <input type="text" name="apellidousuario" id="apellido">
-                    <br><br>
-                    <label for="email">E-MAIL:</label>
-                    <input type="email" name="emailusuario" id="email">
-                    <span id="emailOK"></span>
-                    <br><br>
-                    <label for="telefono">TELEFONO:</label>
-                    <input type="text" name="telefonousuario" id="telefono">
-                    <br><br>
-                    <label for="check">DESEO RECIBIR NOVEDADES </label> <input type="checkbox">
-                    <br><br>
+    <section class="container">
+        <div class="grid-item-section">
+            <div class="item-left">
+                <h1>Estamos ubicados en el barrio de
+                    <div class="animate__rotateInDownLeft animate__delay-2s"> LINIERS </div>
+                </h1>
+                <p><ins>Colectivos que llegan: </ins>
+                <ul>
+                    <li>117</li>
+                    <li>113</li>
+                    <li>8</li>
+                    <li>4</li>
+                    <li>47</li>
+                </ul>
+                </p>
+            </div>
+            <div class="aside">
 
-                    <label for="consulta">ESCRIBA AQUI SU CONSULTA: </label>
-                    <br>
-                    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-                    <br><br>
-                    <button type="submit" value="enviar datos">enviar datos</button>
-                    <button type="reset" value="borrar todo">borrar todo</button>
-                </form>
-            </fieldset>
+                SI PREFIERE RECIBIRLO EN SU DOMICILIO O CORREO MAS CERCANO HAGA CLICK <a
+                    href="/politicadeenvios.html">AQUI</a>
+
+            </div>
+            <div class="item-contenido">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.348386421175!2d-58.51084420000005!3d-34.64590359999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc852f282ade1%3A0xfb69f8f43fcf5a8a!2sAcassuso%20%26%20Pieres%2C%20C1408%20CABA!5e0!3m2!1ses-419!2sar!4v1661395935873!5m2!1ses-419!2sar"
+                    width="700" height="400" style="border:2;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
-    </div>
 
-
-
+    </section>
 
     <footer>
         <div class="grid-container-footer">
             <div>
                 <br>
                 <script type="text/javascript">
-                    copyright=new Date();
-                    update=copyright.getFullYear();
+                    copyright = new Date();
+                    update = copyright.getFullYear();
                     document.write("© 2017 - " + update + " " + "Acupuntura Shazadi");
-                    </script>
+                </script>
             </div>
             <div>
                 <a class="redes" href="https://api.whatsapp.com/send?phone=5491164642975" ; target="_blank"> <img
@@ -83,12 +82,11 @@
 
                 <a class="redes" href="https://www.facebook.com/acupunturashazadi/" ; target="_blank"> <img
                         src="img/facebook.jpg" height="30"></a>
-                        <a href="https://api.whatsapp.com/send?phone=5491122432876" class="sm-redes-float" target="_blank">
-                            </a>
+                <a href="https://api.whatsapp.com/send?phone=5491122432876" class="sm-redes-float" target="_blank">
+                </a>
             </div>
         </div>
     </footer>
-    <script src="/Javascript/general.js"></script>
 </body>
 
 </html>
